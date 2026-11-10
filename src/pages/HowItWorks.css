@@ -1,0 +1,294 @@
+
+.how-page {
+  width: 100%;
+  background: #f8fcf9;
+  color: #173b2d;
+  font-family: Arial, sans-serif;
+}
+
+/* Hero */
+
+.how-hero {
+  padding: 85px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #e8f7ed, #f5fbf6);
+}
+
+.how-tag,
+.section-label {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 30px;
+  background: #e0f5e8;
+  color: #16834a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.how-hero h1 {
+  margin: 25px auto;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #153c2c;
+}
+
+.how-hero h1 span {
+  color: #219653;
+}
+
+.how-hero p {
+  max-width: 700px;
+  margin: auto;
+  color: #63766b;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* Common headings */
+
+.how-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.how-heading h2 {
+  margin: 20px 0 12px;
+  color: #173b2d;
+  font-size: 34px;
+}
+
+.how-heading p {
+  color: #718076;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Pipeline */
+
+.pipeline-section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 85px 25px;
+}
+
+.pipeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pipeline-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  padding: 28px;
+  background: white;
+  border: 1px solid #e1eee5;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(24, 75, 46, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pipeline-card:hover {
+  transform: translateX(6px);
+  box-shadow: 0 10px 25px rgba(24, 75, 46, 0.09);
+}
+
+.pipeline-number {
+  min-width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: #e0f5e8;
+  color: #16834a;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.pipeline-card h3 {
+  margin: 3px 0 10px;
+  color: #173b2d;
+  font-size: 20px;
+}
+
+.pipeline-card p {
+  margin: 0;
+  color: #718076;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Models */
+
+.models-section {
+  padding: 85px 25px;
+  background: #eaf6ee;
+}
+
+.models-section .how-heading,
+.classes-section .how-heading {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.models-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.model-card {
+  padding: 30px;
+  background: white;
+  border: 1px solid #e1eee5;
+  border-radius: 18px;
+  transition: transform 0.3s ease;
+}
+
+.model-card:hover {
+  transform: translateY(-6px);
+}
+
+.model-card span {
+  color: #219653;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.model-card h3 {
+  margin: 15px 0 12px;
+  color: #173b2d;
+  font-size: 21px;
+}
+
+.model-card p {
+  margin: 0;
+  color: #718076;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Prediction classes */
+
+.classes-section {
+  padding: 85px 25px;
+}
+
+.classes-grid {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.class-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #e1eee5;
+  border-radius: 14px;
+  color: #345744;
+  font-weight: 600;
+  box-shadow: 0 5px 18px rgba(24, 75, 46, 0.04);
+}
+
+.class-item span {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0f5e8;
+  color: #16834a;
+  border-radius: 50%;
+}
+
+/* Disclaimer */
+
+.how-note {
+  max-width: 1050px;
+  margin: 0 auto 65px;
+  padding: 28px 30px;
+  background: white;
+  border-left: 5px solid #219653;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(24, 75, 46, 0.05);
+}
+
+.how-note h3 {
+  margin: 0 0 12px;
+  color: #16834a;
+}
+
+.how-note p {
+  margin: 0;
+  color: #66776d;
+  line-height: 1.8;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .how-hero {
+    padding: 65px 20px;
+  }
+
+  .how-hero h1 {
+    font-size: 35px;
+  }
+
+  .how-hero p {
+    font-size: 15px;
+  }
+
+  .how-heading h2 {
+    font-size: 27px;
+  }
+
+  .pipeline-section,
+  .classes-section {
+    padding: 60px 18px;
+  }
+
+  .models-section {
+    padding: 60px 18px;
+  }
+
+  .pipeline-card {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .pipeline-number {
+    min-width: 42px;
+    height: 42px;
+    font-size: 15px;
+  }
+
+  .models-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .classes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .how-note {
+    margin: 0 18px 40px;
+  }
+}
+
+@media (max-width: 420px) {
+  .classes-grid {
+    grid-template-columns: 1fr;
+  }
+}
