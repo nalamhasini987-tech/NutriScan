@@ -37,7 +37,7 @@ function Detection() {
 
     try {
       // Backend URL will be configured during integration.
-    const API_URL = import.meta.env.VITE_API_URL;
+    const API_URL = import.meta.env.CONFIG_API_URL;
       if (!API_URL) {
         throw new Error('Backend URL is not configured yet.')
       }
